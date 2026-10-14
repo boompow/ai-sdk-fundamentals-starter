@@ -2,6 +2,7 @@
   "name": "conf-session-projects",
   "version": "deploy",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "@ai-sdk/gateway": "^1.0.0",
+    "@ai-sdk/groq": "3.0.0",
     "@ai-sdk/openai": "^3.0.0",
     "@ai-sdk/react": "^3.0.0",
     "@radix-ui/react-avatar": "^1.1.1",
